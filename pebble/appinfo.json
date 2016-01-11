@@ -1,24 +1,27 @@
 {
-  "uuid": "6092637b-8f58-4199-94d8-c606b1e45040",
-  "shortName": "PebbleKit Android",
-  "longName": "PebbleKit Android Example App",
-  "companyName": "Pebble",
-  "versionCode": "1",
-  "versionLabel": "1.0",
-  "watchapp": {
-    "watchface": false
-  },
-  "appKeys": {
-    "KEY_BUTTON": 0,
-    "KEY_VIBRATE": 1
-  },
-  "resources": {
-    "media": []
-  },
-  "targetPlatforms": [
-    "aplite",
-    "basalt",
-    "chalk"
-  ],
-  "sdkVersion": "3"
+    "appKeys": {
+        "KEY_BUTTON": 0,
+        "KEY_VIBRATE": 1
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pebble",
+    "longName": "PebbleKit Android Example App",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "PebbleKit Android",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "6092637b-8f58-4199-94d8-c606b1e45040",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
 }

@@ -117,6 +117,10 @@ static void init(void) {
 
   // Create main Window
   s_main_window = window_create();
+    
+  // Set background color
+  window_set_background_color(s_main_window, PBL_IF_COLOR_ELSE(GColorVividCerulean, GColorWhite));
+    
   window_set_click_config_provider(s_main_window, click_config_provider);
   window_set_window_handlers(s_main_window, (WindowHandlers) {
     .load = main_window_load,
