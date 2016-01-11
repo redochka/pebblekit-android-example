@@ -1,7 +1,5 @@
-# PebbleKit Android Example
+# Rider Companion Pebble App
 
-Source code for the PebbleKit Android example app.
-
-This project shows how to perform basic use of `AppMessage` between a Pebble watchapp and an Android companion app.
+Create a bell that can be fixed on a unicycle and controller by pebble. It allows to ring the bell in case of danger or to just let people get out of your way.
 
 ![screenshot](pebble/screenshots/screenshot.png)
